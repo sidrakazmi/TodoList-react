@@ -21,10 +21,13 @@ Object {
           />
           <button
             class="btn"
+            id="addButton"
           >
              Add 
           </button>
-          <div />
+          <div
+            id="list"
+          />
         </div>
       </div>
     </div>
@@ -46,10 +49,13 @@ Object {
         />
         <button
           class="btn"
+          id="addButton"
         >
            Add 
         </button>
-        <div />
+        <div
+          id="list"
+        />
       </div>
     </div>
   </div>,

@@ -6,9 +6,9 @@ export default class List extends Component {
 
     render(){
         return (
-            <div>
-                {(this.props.list).map((item)=>
-                <ListItem item={item}/>
+            <div id="list">
+                {(this.props.list).map((item, index)=>
+                <ListItem key={index} item={item}/>
                 )}
                 
             </div>
