@@ -11,6 +11,21 @@ Object {
         <h1>
           This is a todo list 
         </h1>
+        <div
+          id="input"
+        >
+          <input
+            id="inputField"
+            placeholder="Enter text here"
+            type="text"
+          />
+          <button
+            class="btn"
+          >
+             Add 
+          </button>
+          <div />
+        </div>
       </div>
     </div>
   </body>,
@@ -21,6 +36,21 @@ Object {
       <h1>
         This is a todo list 
       </h1>
+      <div
+        id="input"
+      >
+        <input
+          id="inputField"
+          placeholder="Enter text here"
+          type="text"
+        />
+        <button
+          class="btn"
+        >
+           Add 
+        </button>
+        <div />
+      </div>
     </div>
   </div>,
   "debug": [Function],
