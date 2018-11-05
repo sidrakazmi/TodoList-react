@@ -6,7 +6,8 @@ describe ('App', () =>{
     it ('should render ', () =>{
         const output = render (<App/>);
         expect (output).toMatchSnapshot();
+      
     })
-    debug();
+   
 });
 
